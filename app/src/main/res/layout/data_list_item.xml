@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/txtPopulation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Population"
+        android:textSize="16sp"
+        />
+
+    <TextView
+        android:id="@+id/txtVaesto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vaesto"
+        android:textSize="16sp"
+        />
+
+    <TextView
+        android:id="@+id/txtWork"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Work"
+        android:textSize="16sp"
+        />
+
+    <TextView
+        android:id="@+id/txtTyoKay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TyoKay"
+        android:textSize="16sp"
+        />
+    <TextView
+        android:id="@+id/txtWeather"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Weather"
+        android:textSize="16sp"
+        />
+
+    <TextView
+        android:id="@+id/txtTemp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TyoTemp"
+        android:textSize="16sp"
+        />
+
+    <TextView
+        android:id="@+id/txtWind"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wind Speed"
+        android:textSize="16sp"
+        />
+
+</LinearLayout>
